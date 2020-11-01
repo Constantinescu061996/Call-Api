@@ -14,7 +14,7 @@ weather.temperature = {
 
 
 
-// const key = "5f02bb673cd9623370ab632082700f22";
+
 
 if("geolocation" in navigator){
     navigator.geolocation.getCurrentPosition(setPosition,ShowError);
@@ -66,7 +66,7 @@ console.log("Am intrat")
     iconElement.innerHTML  =`<img 
     src="https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
     />`
-    // iconElement.innerHTML = `<img src="icons/${weather.iconId} .png"/>`;
+    
     
     tempElement.innerHTML = `${weather.temperature.value} °<span>C</span>`;
     
